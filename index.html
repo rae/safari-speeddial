@@ -27,9 +27,14 @@
 		item.appendChild(link)
 		// add <img src="lower_strip(i.name).png" alt="i.name">
 		var icon = document.createElement('img');
-		icon.setAttribute('src', 'icons/'+favorites[i].name.toLowerCase().replace(/\s/g,'')+".png");
+		// icon.setAttribute('src', 'icons/'+favorites[i].name.toLowerCase().replace(/\s/g,'')+".png");
+		icon.setAttribute('src', favorites[i].thumbnail);
 		icon.setAttribute('alt', favorites[i].name);
 		link.appendChild(icon)
+
+		var p = document.createElement('p');
+		p.innerHTML = favorites[i].name
+		link.appendChild(p)
 	};
 </script>
 </html>

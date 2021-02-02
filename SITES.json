@@ -1,162 +1,469 @@
 var favorites = [
-  {
-    name: "localhost",
-    url: "http://localhost/"
-  },
-  {
-    name: "GitHub",
-    url: "https://github.com/MrLoh?tab=repositories"
-  },
-  {
-    name: "stack overflow",
-    url: "http://stackoverflow.com"
-  },
-  {
-    name: "Wolfram Alpha",
-    url: "https://www.wolframalpha.com/"
-  },
-  {
-    name: "Readability",
-    url: "https://www.readability.com/reading-list"
-  },
-  {
-    name: "feedly",
-    url: "http://feedly.com/i/my"
-  },
-  {
-    name: "Twitter",
-    url: "https://twitter.com"
-  },
-  {
-    name: "Facebook",
-    url: "https://www.facebook.com"
-  },
-  {
-    name: "Linked in",
-    url: "https://www.linkedin.com"
-  },
-  {
-    name: "dribbble",
-    url: "https://dribbble.com"
-  },
-  {
-    name: "deviantArt",
-    url: "http://www.deviantart.com/"
-  },
-  {
-    name: "Instagram",
-    url: "https://instagram.com/"
-  },
-  {
-    name: "Flickr",
-    url: "https://www.flickr.com"
-  },
-  {
-    name: "Dropbox",
-    url: "https://www.dropbox.com/home"
-  },
-  {
-    name: "Google Drive",
-    url: "https://drive.google.com/drive/u/0/my-drive"
-  },
-  {
-    name: "WhatsApp",
-    url:"https://web.whatsapp.com"
-  },
-  {
-    name: "DreamHost",
-    url: "https://panel.dreamhost.com/index.cgi"
-  },
-  {
-    name: "Google Admin",
-    url: "https://admin.google.com/"
-  },
-  {
-    name: "MailChimp",
-    url: "https://login.mailchimp.com/"
-  },
-  {
-    name: "Kijani",
-    url: "http://blog.kijani.ngo/admin"
-  },
-  {
-    name: "PayPal",
-    url: "https://www.paypal.com/home"
-  },
-  {
-    name: "Deutsche Bank",
-    url: "https://meine.deutsche-bank.de/trxm/db/"
-  },
-  {
-    name: "barclaycard",
-    url: "https://banking.barclaycard.de/bir/feature/loginprocess?"
-  },
-  {
-    name: "us bank",
-    url: "https://www.usbank.com/index.html"
-  },
-  {
-    name: "eBay",
-    url: "http://www.ebay.de"
-  },
-  {
-    name: "Amazon",
-    url: "http://www.amazon.com"
-  },
-  {
-    name: "idealo",
-    url: "http://www.idealo.de"
-  },
-  {
-    name: "boerse",
-    url: "http://boerse.sx/"
-  },
-  {
-    name: "iCloud",
-    url: "https://www.icloud.com"
-  },
-  {
-    name: "Google",
-    url: "https://www.google.com"
-  },
-  {
-    name: "IMDB",
-    url: "http://www.imdb.com/sections/dvd"
-  },
-  {
-    name: "Trakt tv",
-    url: "https://trakt.tv"
-  },
-  {
-    name: "YouTube",
-    url: "https://www.youtube.com"
-  },
-  {
-    name: "Netflix",
-    url: "http://www.netflix.com/browse"
-  },
-  {
-    name: "Sick Beard",
-    url: ""
-  },
-  {
-    name: "CouchPotato",
-    url: ""
-  },
-  {
-    name: "NZBGet",
-    url: ""
-  },
-  {
-    name: "DOGnzb",
-    url: ""
-  },
-  {
-    name: "Plex",
-    url: ""
-  },
-  {
-    name: "Synology",
-    url: ""
-  }
+    {
+      name: "Google Calendar",
+      url: "https://www.google.com/calendar",
+      thumbnail: "http://farm6.static.flickr.com/5182/5613127636_e854aea66b_o.png"
+    },
+    {
+      name: "TV HD+4k",
+      url: "https://rarbg.to/torrents.php?category=1;41;49",
+      thumbnail: "http://dyncdn.me/static/20/img/logo_dark_optimized.png"
+    },
+    {
+      name: "TV 4k",
+      url: "https://rarbg.to/torrents.php?category=49",
+      thumbnail: "http://dyncdn.me/static/20/img/logo_dark_optimized.png"
+    },
+    {
+      name: "Movies",
+      url: "https://rarbg.to/torrents.php?category=48;44;45;50;51;52",
+      thumbnail: "http://dyncdn.me/static/20/img/logo_dark_optimized.png"
+    },
+    {
+      name: "Movies 4k",
+      url: "https://rarbg.to/torrents.php?category=50;51;52",
+      thumbnail: "http://dyncdn.me/static/20/img/logo_dark_optimized.png"
+    },
+    {
+      name: "Movies H.265",
+      url: "https://rarbg.to/torrents.php?category=54&search=&order=seeders&by=DESC",
+      thumbnail: "http://dyncdn.me/static/20/img/logo_dark_optimized.png"
+    },
+    {
+      name: "Dev Portal",
+      url: "https://developer.apple.com/account/ios/certificate/?teamId=EABB9ME57C",
+      thumbnail: "https://logo.clearbit.com/developer.apple.com?size=320"
+    },
+    {
+      name: "Download - Apple Developer",
+      url: "https://developer.apple.com/download/",
+      thumbnail: "https://logo.clearbit.com/developer.apple.com?size=320"
+    },
+    {
+      name: "Synology Home",
+      url: "http://192.168.1.79:5000",
+      thumbnail: "https://i.imgur.com/dqW28KW.png"
+    },
+    {
+      name: "Synology",
+      url: "https://quickconnect.to/CLITH",
+      thumbnail: "https://i.imgur.com/dqW28KW.png"
+    },
+    {
+      name: "Netflix",
+      url: "http://www.netflix.com/browse",
+      thumbnail: "http://i.imgur.com/NOKDe33.png"
+    },
+    {
+      name: "Prime Video",
+      url: "https://www.primevideo.com/ref=av_auth_return_redir?_encoding=UTF8&ie=UTF8&ie=UTF8&ref=dvm_pds_amz_CA_kc_s_g%7Cc_164154793348_m_qV220B1B-dc_s__",
+      thumbnail: "https://logo.clearbit.com/www.primevideo.com?size=320"
+    },
+    {
+      name: "YouTube",
+      url: "https://www.youtube.com/",
+      thumbnail: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/1024px-Logo_of_YouTube_%282015-2017%29.svg.png"
+    },
+    {
+      name: "Rakuten Viki",
+      url: "https://www.viki.com/collections/3263587l-reids-shows",
+      thumbnail: "https://i.imgur.com/nOZZM0J.png"
+    },
+    {
+      name: "Apple TV+",
+      url: "https://tv.apple.com/us/",
+      thumbnail: "https://logo.clearbit.com/tv.apple.com?size=320"
+    },
+    {
+      name: "Apple Developer",
+      url: "https://daw.apple.com/cgi-bin/WebObjects/DSAuthWeb.woa/wa/login?&appIdKey=891bd3417a7776362562d2197f89480a8547b108fd934911bcbea0110d07f757&path=%2F%2Fdevcenter%2Fios%2Findex.action",
+      thumbnail: "https://logo.clearbit.com/daw.apple.com?size=320"
+    },
+    {
+      name: "Google Play Movies",
+      url: "https://play.google.com/movies",
+      thumbnail: "https://i.imgur.com/6pAFshS.png"
+    },
+    {
+      name: "Home - Nest",
+      url: "https://home.nest.com/camera/91f5ad811a2c4edfba4e4a33b0f31cde"
+    },
+    {
+      name: "Glo Books",
+      url: "http://glodls.to/search.php?cat=51",
+      thumbnail: "https://upload.wikimedia.org/wikipedia/commons/8/86/Glo_button.png"
+    },
+    {
+      name: "Glo TV",
+      url: "http://glodls.to/search.php?cat=41",
+      thumbnail: "https://upload.wikimedia.org/wikipedia/commons/8/86/Glo_button.png"
+    },
+    {
+      name: "octo torrents",
+      url: "http://octo.local:9091/transmission/web/",
+      thumbnail: "http://i.imgur.com/pn3zLYv.png"
+    },
+    {
+      name: "cme torrents",
+      url: "http://northdew.ddns.net:6886/transmission/web/",
+      thumbnail: "http://i.imgur.com/pn3zLYv.png"
+    },
+    {
+      name: "tnir WebMail",
+      url: "http://webmail.tnir.org/index.php/mail",
+      thumbnail: "https://i.imgur.com/4iFT3fi.png"
+    },
+    {
+      name: "Messenger",
+      url: "https://www.messenger.com",
+      thumbnail: "http://i.imgur.com/Hs0fQJl.png"
+    },
+    {
+      name: "HomeNet Status",
+      url: "http://192.168.1.1/",
+      thumbnail: "https://logos-download.com/wp-content/uploads/2016/04/Bell_logo.png"
+    },
+    {
+      name: "CamelCamelCamel",
+      url: "https://ca.camelcamelcamel.com/",
+      thumbnail: "https://logo.clearbit.com/ca.camelcamelcamel.com?size=320"
+    },
+    {
+      name: "Facebook",
+      url: "https://www.facebook.com",
+      thumbnail: "http://farm6.static.flickr.com/5065/5612547553_9469c585fa_o.jpg"
+    },
+    {
+      name: "TweetDeck",
+      url: "https://tweetdeck.twitter.com/#",
+      thumbnail: "https://logo.clearbit.com/tweetdeck.twitter.com?size=320"
+    },
+    {
+      name: "Parler",
+      url: "https://parler.com/profile/clith/posts",
+      thumbnail: "https://i.imgur.com/M4dnWnN.jpg"
+    },
+    {
+      name: "Hacking with Swift+ – take your Swift learning to the next level",
+      url: "https://www.hackingwithswift.com/plus",
+      thumbnail: "https://logo.clearbit.com/www.hackingwithswift.com?size=320"
+    },
+    {
+      name: "Wealthsimple | Smart investing",
+      url: "https://my.wealthsimple.com/app/trade",
+      thumbnail: "https://logo.clearbit.com/my.wealthsimple.com?size=320"
+    },
+    {
+      name: "Tangerine",
+      url: "https://www.tangerine.ca/app/#/accounts",
+      thumbnail: "https://logo.clearbit.com/www.tangerine.ca?size=320"
+    },
+    {
+      name: "Scotiabank",
+      url: "https://www.scotiaonline.scotiabank.com",
+      thumbnail: "https://logo.clearbit.com/www.scotiaonline.scotiabank.com?size=320"
+    },
+    {
+      name: "Google Maps",
+      url: "https://www.google.ca/maps/@43.7450514,-79.1996095,16z",
+      thumbnail: "https://i.imgur.com/inMf1PG.png"
+    },
+    {
+      name: "Mail",
+      url: "https://mail.google.com/mail/u/0/#inbox",
+      thumbnail: "https://i.imgur.com/CoeAEfE.png"
+    },
+    {
+      name: "Drive",
+      url: "https://drive.google.com",
+      thumbnail: "https://i.imgur.com/3n5v2Mb.png"
+    },
+    {
+      name: "Docs",
+      url: "https://docs.google.com",
+      thumbnail: "https://i.imgur.com/sp9uWF9.png"
+    },
+    {
+      name: "ScotiaWorld",
+      url: "https://www.scotiaworld.com",
+      thumbnail: "https://i.imgur.com/lwfvtTa.jpg"
+    },
+    {
+      name: "Sheets",
+      url: "http://sheets.google.com/",
+      thumbnail: "https://i.imgur.com/dPQ2Zqv.png"
+    },
+    {
+      name: "Manulife",
+      url: "https://grsmembers.manulife.com/wps/myportal/grsmembers/member/home/!ut/p/b1/04_Sj9Q1MjSyNDUytDA214_Qj8pLLMtMTyzJzM9LzAHxo8ziTSycnIzdTE0M3EPcTA08A0IsApydQ40NAo30g1Pz9HOjHBUBJvkdPA!!/",
+      thumbnail: "https://logo.clearbit.com/grsmembers.manulife.com?size=320"
+    },
+    {
+      name: "Bell.ca",
+      url: "https://mybell.bell.ca/",
+      thumbnail: "https://logo.clearbit.com/mybell.bell.ca?size=320"
+    },
+    {
+      name: "CRA",
+      url: "https://www.canada.ca/en/revenue-agency/services/e-services/e-services-individuals/account-individuals.html",
+      thumbnail: "https://i.imgur.com/DFJysHX.jpg"
+    },
+    {
+      name: "App Store Connect",
+      url: "https://appstoreconnect.apple.com/",
+      thumbnail: "https://i.imgur.com/zCNXyCX.png"
+    },
+    {
+      name: "Home - Venngo // WorkPerks®",
+      url: "https://scotiabank.venngo.com/index.php?base=/welcome&action=homeWP"
+    },
+    {
+      name: "Scriptonite",
+      url: "https://www.patreon.com/scriptonite/posts?tag=The%20Expanse",
+      thumbnail: "https://logo.clearbit.com/www.patreon.com?size=320"
+    },
+    {
+      name: "Natalie Gold",
+      url: "https://www.patreon.com/nataliegold/posts",
+      thumbnail: "https://logo.clearbit.com/www.patreon.com?size=320"
+    },
+    {
+      name: "Apple/Scotiabank",
+      url: "https://www.apple.com/ca_epp_231025/shop"
+    },
+    {
+      name: "The Expanse FL – Blind Wave",
+      url: "https://blindwavellc.com/category/full-length/theexpansefl/"
+    },
+    {
+      name: "Stadia",
+      url: "https://stadia.google.com/home",
+      thumbnail: "https://i.imgur.com/n3vVMLo.png"
+    },
+    {
+      name: "Twitter",
+      url: "https://twitter.com/",
+      thumbnail: "http://farm6.static.flickr.com/5262/5613127870_28b3501e9e_o.jpg"
+    },
+    {
+      name: "@clith/apple",
+      url: "https://twitter.com/clith/lists/apple",
+      thumbnail: "http://i.imgur.com/twYgntf.png"
+    },
+    {
+      name: "@clith/tech",
+      url: "https://twitter.com/clith/lists/tech",
+      thumbnail: "http://i.imgur.com/twYgntf.png"
+    },
+    {
+      name: "@clith/gadgets",
+      url: "https://twitter.com/clith/lists/gadgets",
+      thumbnail: "http://i.imgur.com/kT8yT0S.png"
+    },
+    {
+      name: "@clith/science",
+      url: "https://twitter.com/clith/lists/science",
+      thumbnail: "http://i.imgur.com/kT8yT0S.png"
+    },
+    {
+      name: "@clith/swift",
+      url: "https://twitter.com/clith/lists/Swift",
+      thumbnail: "http://i.imgur.com/twYgntf.png"
+    },
+    {
+      name: "@clith/bittorrent",
+      url: "https://twitter.com/clith/lists/bittorrent",
+      thumbnail: "http://i.imgur.com/twYgntf.png"
+    },
+    {
+      name: "@clith/dev",
+      url: "https://twitter.com/clith/lists/dev",
+      thumbnail: "http://i.imgur.com/twYgntf.png"
+    },
+    {
+      name: "@clith/devs",
+      url: "https://twitter.com/clith/lists/devs",
+      thumbnail: "http://i.imgur.com/twYgntf.png"
+    },
+    {
+      name: "@clith/shop",
+      url: "https://twitter.com/clith/lists/shop",
+      thumbnail: "http://i.imgur.com/twYgntf.png"
+    },
+    {
+      name: "Google Sheets",
+      url: "https://docs.google.com/spreadsheets/u/0/",
+      thumbnail: "https://i.imgur.com/dPQ2Zqv.png"
+    },
+    {
+      name: "@clith/games",
+      url: "https://twitter.com/clith/lists/games",
+      thumbnail: "http://i.imgur.com/twYgntf.png"
+    },
+    {
+      name: "Secure CordWarrior",
+      url: "https://portal.securecodewarrior.com",
+      thumbnail: "https://logo.clearbit.com/portal.securecodewarrior.com?size=320"
+    },
+    {
+      name: "@clith/news",
+      url: "https://twitter.com/clith/lists/news",
+      thumbnail: "http://i.imgur.com/twYgntf.png"
+    },
+    {
+      name: "@clith/transit",
+      url: "https://twitter.com/clith/lists/transit",
+      thumbnail: "http://i.imgur.com/twYgntf.png"
+    },
+    {
+      name: "@clith/entertainment",
+      url: "https://twitter.com/clith/lists/entertainment",
+      thumbnail: "http://i.imgur.com/twYgntf.png"
+    },
+    {
+      name: "@clith/friends",
+      url: "https://twitter.com/clith/lists/friends",
+      thumbnail: "http://i.imgur.com/twYgntf.png"
+    },
+    {
+      name: "@clith/telecom",
+      url: "https://twitter.com/clith/lists/telecom",
+      thumbnail: "http://i.imgur.com/twYgntf.png"
+    },
+    {
+      name: "@clith/toronto",
+      url: "https://twitter.com/clith/lists/toronto",
+      thumbnail: "http://i.imgur.com/twYgntf.png"
+    },
+    {
+      name: "@clith/Canada",
+      url: "https://twitter.com/clith/lists/canada",
+      thumbnail: "http://i.imgur.com/twYgntf.png"
+    },
+    {
+      name: "@clith/misc",
+      url: "https://twitter.com/clith/lists/misc",
+      thumbnail: "http://i.imgur.com/twYgntf.png"
+    },
+    {
+      name: "Board Game Arena",
+      url: "https://boardgamearena.com/"
+    },
+    {
+      name: "Boardgamecore",
+      url: "http://play.boardgamecore.net/main.jsp"
+    },
+    {
+      name: "NewsBlur",
+      url: "http://newsblur.com/site/6865999/releases-apple-developer"
+    },
+    {
+      name: "Google Hangouts",
+      url: "https://hangouts.google.com/",
+      thumbnail: "http://i.imgur.com/XnSe8IX.png"
+    },
+    {
+      name: "Online OCR",
+      url: "http://www.onlineocr.net/dashboard",
+      thumbnail: "https://i.imgur.com/LCPNtec.jpg"
+    },
+    {
+      name: "Pizza Pizza",
+      url: "https://order.pizzapizza.ca/PhoenixWEB/order/#home"
+    },
+    {
+      name: "Guru3D.com",
+      url: "https://www.guru3d.com/"
+    },
+    {
+      name: "ZenMate IPCheck",
+      url: "https://zenmate.com/apps/ip-check/"
+    },
+    {
+      name: "Google Maps",
+      url: "https://www.google.ca/maps/@43.7446366,-79.1887108,14z"
+    },
+    {
+      name: "TVmaze.com - Your personal TV guide",
+      url: "http://www.tvmaze.com/"
+    },
+    {
+      name: "Dream email",
+      url: "http://mailboxes.tnir.org/"
+    },
+    {
+      name: "Godot",
+      url: "https://godotengine.org/",
+/*	  thumbnail: "https://godotengine.org/themes/godotengine/assets/logo_dark.svg"*/
+	  thumbnail: "icons/godot.svg"
+    },
+    {
+      name: "Search Torrents - GloDLS",
+      url: "http://glodls.to/search.php?cat=1"
+    },
+    {
+      name: "clith | Free Listening on SoundCloud",
+      url: "https://soundcloud.com/clith",
+      thumbnail: "https://logo.clearbit.com/soundcloud.com?size=320"
+    },
+    {
+      name: "Releases - Apple Developer",
+      url: "https://developer.apple.com/news/releases/"
+    },
+    {
+      name: "PlowTO Map",
+      url: "https://www.toronto.ca/services-payments/streets-parking-transportation/road-maintenance/winter-maintenance/plowto",
+      thumbnail: "https://i.imgur.com/uu2Ivdu.png"
+    },
+    {
+      name: "Messenger",
+      url: "https://www.messenger.com/t/2633853246728608",
+      thumbnail: "https://logo.clearbit.com/www.messenger.com?size=320"
+    },
+    {
+      name: "Guru3D.com",
+      url: "https://www.guru3d.com/"
+    },
+    {
+      name: "Parler Free Speech Social Network",
+      url: "https://parler.com/feed",
+      thumbnail: "https://logo.clearbit.com/parler.com?size=320"
+    },
+    {
+      name: "Colonist (Settlers)",
+      url: "https://colonist.io"
+    },
+    {
+      name: "Warzone",
+      url: "https://www.warzone.com",
+      thumbnail: "https://logo.clearbit.com/www.warzone.com?size=320"
+    },
+    {
+      name: "Yucata",
+      url: "https://www.yucata.de/en"
+    },
+    {
+      name: "BrettspielWelt",
+      url: "https://m.brettspielwelt.de/#requestPage:list:HeadPlay,uid:684808,select:play.Requests"
+    },
+    {
+      name: "Days of Wonder",
+      url: "https://www.daysofwonder.com/online/en/play/"
+    },
+    {
+      name: "SlothNinja Games",
+      url: "https://www.slothninja.com/"
+    },
+    {
+      name: "Board Game Arena",
+      url: "https://boardgamearena.com/"
+    },
+    {
+      name: "SpielByWeb",
+      url: "http://spielbyweb.com/"
+    },
+    {
+      name: "Board games online",
+      url: "https://boardgames-online.net/"
+    }
 ];
