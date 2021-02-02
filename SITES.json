@@ -30,16 +30,6 @@ var favorites = [
       thumbnail: "http://dyncdn.me/static/20/img/logo_dark_optimized.png"
     },
     {
-      name: "Dev Portal",
-      url: "https://developer.apple.com/account/ios/certificate/?teamId=EABB9ME57C",
-      thumbnail: "https://logo.clearbit.com/developer.apple.com?size=320"
-    },
-    {
-      name: "Download - Apple Developer",
-      url: "https://developer.apple.com/download/",
-      thumbnail: "https://logo.clearbit.com/developer.apple.com?size=320"
-    },
-    {
       name: "Synology Home",
       url: "http://192.168.1.79:5000",
       thumbnail: "https://i.imgur.com/dqW28KW.png"
@@ -70,19 +60,34 @@ var favorites = [
       thumbnail: "https://i.imgur.com/nOZZM0J.png"
     },
     {
+      name: "Google Play Movies",
+      url: "https://play.google.com/movies",
+      thumbnail: "https://i.imgur.com/6pAFshS.png"
+    },
+    {
+      name: "Hacking with Swift+",
+      url: "https://www.hackingwithswift.com/plus",
+      thumbnail: "https://logo.clearbit.com/www.hackingwithswift.com?size=320"
+    },
+    {
+      name: "Dev Portal",
+      url: "https://developer.apple.com/account/ios/certificate/?teamId=EABB9ME57C",
+      thumbnail: "https://logo.clearbit.com/developer.apple.com"
+    },
+    {
+      name: "Download - Apple Developer",
+      url: "https://developer.apple.com/download/",
+      thumbnail: "https://logo.clearbit.com/developer.apple.com?size=320"
+    },
+    {
       name: "Apple TV+",
       url: "https://tv.apple.com/us/",
-      thumbnail: "https://logo.clearbit.com/tv.apple.com?size=320"
+      thumbnail: "icons/appletv-plus.png"
     },
     {
       name: "Apple Developer",
       url: "https://daw.apple.com/cgi-bin/WebObjects/DSAuthWeb.woa/wa/login?&appIdKey=891bd3417a7776362562d2197f89480a8547b108fd934911bcbea0110d07f757&path=%2F%2Fdevcenter%2Fios%2Findex.action",
       thumbnail: "https://logo.clearbit.com/daw.apple.com?size=320"
-    },
-    {
-      name: "Google Play Movies",
-      url: "https://play.google.com/movies",
-      thumbnail: "https://i.imgur.com/6pAFshS.png"
     },
     {
       name: "Home - Nest",
@@ -142,11 +147,6 @@ var favorites = [
       name: "Parler",
       url: "https://parler.com/profile/clith/posts",
       thumbnail: "https://i.imgur.com/M4dnWnN.jpg"
-    },
-    {
-      name: "Hacking with Swift+ – take your Swift learning to the next level",
-      url: "https://www.hackingwithswift.com/plus",
-      thumbnail: "https://logo.clearbit.com/www.hackingwithswift.com?size=320"
     },
     {
       name: "Wealthsimple | Smart investing",
@@ -229,11 +229,13 @@ var favorites = [
     },
     {
       name: "Apple/Scotiabank",
-      url: "https://www.apple.com/ca_epp_231025/shop"
+      url: "https://www.apple.com/ca_epp_231025/shop",
+	  thumbnail: "https://logo.clearbit.com/developer.apple.com"
     },
     {
-      name: "The Expanse FL – Blind Wave",
-      url: "https://blindwavellc.com/category/full-length/theexpansefl/"
+      name: "BlindWave / The Expanse",
+      url: "https://blindwavellc.com/category/full-length/theexpansefl/",
+	  thumbnail: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Blind_Wave_Logo.png/1200px-Blind_Wave_Logo.png"
     },
     {
       name: "Stadia",
@@ -384,7 +386,7 @@ var favorites = [
       url: "https://www.google.ca/maps/@43.7446366,-79.1887108,14z"
     },
     {
-      name: "TVmaze.com - Your personal TV guide",
+      name: "TVmaze",
       url: "http://www.tvmaze.com/"
     },
     {
@@ -408,7 +410,8 @@ var favorites = [
     },
     {
       name: "Releases - Apple Developer",
-      url: "https://developer.apple.com/news/releases/"
+      url: "https://developer.apple.com/news/releases/",
+	  thumbnail: "https://logo.clearbit.com/developer.apple.com"
     },
     {
       name: "PlowTO Map",
@@ -416,18 +419,12 @@ var favorites = [
       thumbnail: "https://i.imgur.com/uu2Ivdu.png"
     },
     {
-      name: "Messenger",
-      url: "https://www.messenger.com/t/2633853246728608",
-      thumbnail: "https://logo.clearbit.com/www.messenger.com?size=320"
-    },
-    {
       name: "Guru3D.com",
       url: "https://www.guru3d.com/"
     },
     {
       name: "Parler Free Speech Social Network",
-      url: "https://parler.com/feed",
-      thumbnail: "https://logo.clearbit.com/parler.com?size=320"
+      url: "https://parler.com/feed"
     },
     {
       name: "Colonist (Settlers)",
